@@ -22,11 +22,15 @@ Facilities to be designed and developed :
    Bit Coin Selection Question paper 1:
  1.	What is the symbol for Bitcoin?
 
-    A.	LTC       B.  BTC.       C.  XEM
+    A.	LTC      
+    B.  BTC.       
+    C.  XEM
 
  2.	What is the symbol for VeChain?
 
-    A.	VEN        B.  LSK.        C. DASH
+    A.	VEN        
+    B.  LSK.          
+    C. DASH
 
    Corresponding Answer file 1 will have:
  1.	B
