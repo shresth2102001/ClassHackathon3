@@ -30,9 +30,9 @@ try:
     b=int(input("Enter the no of Questions \n"))
     for i in range(a):
         print("Questionpaper ",i+1)
-        ans=open("Answerkey"+str(i+1)+".txt",'w')
+        ans=open("Answerkey for Questionpaper"+str(i+1)+".txt",'w')
         Question=open("Questionpapers"+str(i+1)+".txt",'w')
-        ans.write("Answerkey"+str(i+1)+"\n")
+        ans.write("Answerkey for Questionpape"+str(i+1)+"\n")
         Question.write("Question Paper"+str(i+1)+"\n")
         QuestionPaper(b)
         ans.close()
@@ -41,7 +41,7 @@ try:
     c=int(input())
     for i in range(a):
         if(c==1):
-            ans=open("Answerkey"+str(i+1)+".txt",'r')
+            ans=open("Answerkey for Questionpaper"+str(i+1)+".txt",'r')
             for x in ans:
                 print(x)
             ans.close()
